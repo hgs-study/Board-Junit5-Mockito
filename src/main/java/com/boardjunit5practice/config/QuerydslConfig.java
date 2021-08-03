@@ -1,4 +1,4 @@
-package com.boardjunit5practice.board.config;
+package com.boardjunit5practice.config;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import org.springframework.context.annotation.Bean;
