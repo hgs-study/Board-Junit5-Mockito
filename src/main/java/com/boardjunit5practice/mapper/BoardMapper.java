@@ -18,7 +18,7 @@ public interface BoardMapper {
             @Mapping(target = "content", source = "content"),
             @Mapping(target = "hit", defaultValue = "0L")
     })
-    Board toEntity(Request.register register);
-
+    Board toEntity(Request.Register register);
+    Board toEntity(Request.Modify modify);
     Response.Find toDto(Board board);
 }
